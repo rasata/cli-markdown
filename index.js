@@ -58,7 +58,7 @@ const md = markdownit({
           break;
         }
         case 'caution': {
-          color = 'yellow light';
+          color = "magenta";
 
           break;
         }
@@ -107,7 +107,7 @@ const md = markdownit({
           break;
         }
         case 'caution': {
-          color = 'yellow light';
+          color = "magenta";
           icon = '•';
 
           break;
@@ -120,7 +120,7 @@ const md = markdownit({
 
       return `<p><span class="x-cli-color-${color}"> ${
         token.content[0].toUpperCase() + token.content.slice(1).toLowerCase()
-      }</span></p>\n`;
+      }</span></p>`;
     },
   });
 
