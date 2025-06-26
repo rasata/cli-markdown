@@ -21,9 +21,9 @@
     "fix": "eslint --quiet --fix *.js bin/*.js .eslintrc.cjs --ignore-pattern '!.eslintrc.js'"
   },
   "dependencies": {
-    "@mdit/plugin-alert": "^0.21.0",
+    "@mdit/plugin-alert": "^0.22.1",
     "@types/marked": "^6.0.0",
-    "cli-html": "^4.3.1",
+    "cli-html": "^4.4.0",
     "concat-stream": "^2.0.0",
     "markdown-it": "^14.1.0",
     "markdown-it-abbr": "^2.0.0",
@@ -38,11 +38,11 @@
   },
   "devDependencies": {
     "confusing-browser-globals": "^1.0.11",
-    "eslint": "^9.28.0",
+    "eslint": "^9.29.0",
     "eslint-config-standard-jsdoc": "^9.3.0",
     "eslint-plugin-async-await": "0.0.0",
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-jsdoc": "^50.7.1",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsdoc": "^51.2.3",
     "eslint-plugin-json": "^4.0.1",
     "eslint-plugin-no-loops": "^0.4.0",
     "eslint-plugin-node": "^11.1.0",
